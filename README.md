@@ -25,23 +25,25 @@ This project demonstrates:
 
 ## Getting Started
 
-1. **Install dependencies**:
+1. **Create a `.env` file**  
+   Duplicate the `.env.example` file and rename it to `.env`. Then, add your `DATABASE_URL` (e.g. `postgres://user:password@localhost:5432/mytaskdb`) inside this file.
+2. **Install dependencies**:
    ```bash
    npm install
    ```
-2. **Spin up PostgreSQL**:
+3. **Spin up PostgreSQL**:
    ```bash
    npm run db:start
    ```
-3. **Initialize the database**:
+4. **Initialize the database**:
    ```bash
    npm run migrate:up
    ```
-4. **Run the SvelteKit dev server**:
+5. **Run the SvelteKit dev server**:
    ```bash
    npm run dev
    ```
-5. **Open your browser** at [http://localhost:5173](http://localhost:5173) (or the port displayed in your terminal).
+6. **Open your browser** at [http://localhost:5173](http://localhost:5173) (or the port displayed in your terminal).
 
 ## If I Had More Time
 
